@@ -1,0 +1,14 @@
+
+<h5 *ngIf="!(selectedPlaylists.length === 2)">Select 2 Playlists to Get Merged</h5>
+<div *ngIf="selectedPlaylists.length === 2">
+  <label for="newPlaylistName">New Playlist Name:</label>
+  <input class='form-input' [(ngModel)]="newPlaylistName" id="newPlaylistName" />
+  <button class='create-playlist-button' (click)="createNewPlaylist()">Create New Playlist</button>
+</div>
+<div class="button-container">
+<div *ngFor="let playlist of playlists">
+    <button class='btn' (click)="selectPlaylist(playlist)" [class.selected]="isSelected(playlist)" >{{ playlist.name }}</button>
+  </div>
+</div>  
+
+  

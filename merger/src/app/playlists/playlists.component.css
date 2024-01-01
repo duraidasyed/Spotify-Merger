@@ -1,0 +1,60 @@
+.btn{
+    border-color: gray;
+    color: white;
+    text-align: right;
+}
+.button{
+    text-align: center;
+}
+.btn:hover{
+    background-color: grey;
+    color:black
+}
+button.selected {
+    background-color: white; /* Add your preferred highlight color */
+    color: black; /* Add your preferred text color */
+    
+  }
+.button-container{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items vertically */}
+    /* Example CSS for button styling */
+.create-playlist-button {
+    background-color: #4caf50; /* Green background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Adjust padding for better spacing */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition on hover */
+  }
+  
+  .create-playlist-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  .form-input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .form-input:focus {
+    outline: none;
+    border-color: #4caf50; /* Green border color on focus */
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Green box shadow on focus */
+  }
+  h5{
+    text-align: center;
+  }
+  p{ 
+    font-size: 25px;
+  }
+  label{
+    font-size: 25px;
+  }
